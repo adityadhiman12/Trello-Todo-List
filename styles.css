@@ -1,0 +1,36 @@
+body,
+html {
+  padding: 0px;
+  margin: 0px;
+}
+
+.main-container {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+.delete {
+  cursor: pointer;
+}
+
+.sub-container {
+  background-color: aqua;
+}
+
+li {
+  display: grid;
+  grid-template-columns: 10% 80% 10%;
+  align-items: center;
+}
+
+input[type="checkbox"]:checked + p {
+  text-decoration: line-through;
+}
+
+.main-container h1 {
+  color: white;
+  font-style: italic;
+  align-self: center;
+}

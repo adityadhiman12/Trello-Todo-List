@@ -1,0 +1,51 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Trello Project</title>
+    <!-- <link
+      href="https://fonts.googleapis.com/css?family=Indie+Flower|Roboto"
+      rel="stylesheet"
+    /> -->
+    <title>
+      Trello ToDo Project
+    </title>
+
+    <link href="./styles.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="main-container">
+      <h1>Trello TODO Project</h1>
+      <div class="sub-container">
+        <form class="input-item">
+          <input
+            type="text"
+            placeholder="Fill in a New TODO"
+            s=""
+            style="
+              margin-left: 3em;
+          "
+          />
+        </form>
+  
+        <form class="TODO-lists">
+          <ul id="checklist">
+            <li
+              style="display: none"
+              id="items-of-checklist"
+              style="display: none"
+            >
+              <input type="checkbox" value="TODO Items" />
+              <p class="dashed" contenteditable="true"></p>
+              <div class="delete">X</div>
+              
+            </li>
+          </ul>
+        </form>
+      </div>
+      
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
